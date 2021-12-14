@@ -1,0 +1,20 @@
+$mainColor: #333;
+$headerColor: #54f;
+$textColor: #ff8644;
+$navColor: #fff;
+
+body {
+  background-color: $mainColor;
+}
+
+.header {
+  height: 100px;
+  background-color: $headerColor;
+  .navbar {
+    background-color: $navColor;
+    // height: 20%;
+    &__text {
+      color: $textColor;
+    }
+  }
+}
