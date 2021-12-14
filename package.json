@@ -1,0 +1,25 @@
+{
+  "name": "modive",
+  "version": "1.0.0",
+  "description": "A website that is used to facilitate one's productivity",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdfahmi07/modive.git"
+  },
+  "author": "Abdulloh Fahmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdfahmi07/modive/issues"
+  },
+  "homepage": "https://github.com/abdfahmi07/modive#readme",
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
