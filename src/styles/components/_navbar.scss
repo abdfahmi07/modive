@@ -1,0 +1,27 @@
+@use "../utils/fonts";
+@use "../utils/variables" as var;
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  &__logo {
+    margin-right: 40px;
+    &__image {
+      width: 100%;
+    }
+  }
+  &__menu {
+    display: flex;
+    flex: 1;
+  }
+  &__item {
+    & a {
+      color: var.$textColor;
+      text-decoration: none;
+    }
+    &:first-child {
+      margin-right: 60px;
+    }
+  }
+}

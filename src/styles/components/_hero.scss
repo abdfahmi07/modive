@@ -1,0 +1,52 @@
+@use "../utils/fonts";
+@use "../utils/variables" as var;
+
+.hero {
+  display: flex;
+  &__header {
+    padding-top: 80px;
+    flex: 1.3;
+    &__headline {
+      font-size: 55px;
+      margin-bottom: 25px;
+      margin-top: 0;
+      padding-right: 40px;
+    }
+    &__copy {
+      font-size: 22px;
+      padding-right: 90px;
+    }
+    &__cta {
+      margin-top: 110px;
+      display: flex;
+      align-items: center;
+      a {
+        width: 140px;
+        margin-right: 40px;
+      }
+
+      &__payday-desc {
+        font-family: "Fira Code";
+        p {
+          font-weight: bold;
+          color: #585858;
+          margin-bottom: 0;
+          margin-top: 0;
+        }
+        h3 {
+          margin-top: 10px;
+          margin-bottom: 0px;
+          span {
+            font-size: 28px;
+          }
+        }
+      }
+    }
+  }
+  &__illustration {
+    flex: 1;
+    &__image {
+      width: 100%;
+    }
+  }
+}
