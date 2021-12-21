@@ -1,0 +1,77 @@
+@use "../utils/fonts";
+@use "../utils/variables" as var;
+
+.footer {
+  background-color: var.$textColor;
+  color: var.$bgColor;
+  padding: 5rem 10rem 3rem 10rem;
+  //   display: flex;
+  &__wrapper {
+    display: flex;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid var.$bgColor;
+  }
+
+  &__product-identity {
+    margin-right: 8rem;
+    flex: 0.4;
+    a {
+      display: inline-block;
+      width: 200px;
+      img {
+        width: 100%;
+      }
+    }
+    h4 {
+      padding-left: 40px;
+      margin-top: 20px;
+      font-weight: normal;
+      font-size: 18px;
+    }
+  }
+
+  &__site-link {
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 90px;
+    }
+
+    &--socmed {
+      height: 75px;
+      .socmed {
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+        svg {
+          font-size: 28px;
+          margin-right: 10px;
+          color: var.$bgColor;
+        }
+      }
+    }
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Fira Code", sans-serif;
+
+    h4 {
+      font-weight: normal;
+    }
+
+    svg {
+      font-size: 3rem;
+      color: var.$bgColor;
+    }
+  }
+}
